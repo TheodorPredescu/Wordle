@@ -50,7 +50,7 @@ void delete_first_word() {
     }
 
     while (getline(fin2, line)) {
-        cout<<line<<endl;
+        // cout<<line<<endl;
         fout << line << endl;
     }
 
@@ -176,7 +176,7 @@ int main() {
     while (1) {
         system("cls");
         if (invalid_command == true) {
-            cout << "Invalid command" << endl;
+            cout << "Invalid command!!" << endl;
             invalid_command = false;
         }
         wordle_afis_start_menu();
@@ -197,7 +197,6 @@ int main() {
             break;
 
         } else {
-            cout << "Invalid command!!!" << endl;
             invalid_command = true;
         }
     }
